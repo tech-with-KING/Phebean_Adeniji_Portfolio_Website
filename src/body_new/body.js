@@ -62,7 +62,7 @@ const Luminar = ({value}) => {
          <div onClick={toggleNavbar} style={{display:'flex', alignItems:'center', justifyContent:'center', background:'transparent'}}>
             <Hamburger toggled={isOpen} toggle={setOpen}  />
           </div>
-          <div className="nav-logo" style={{textAlign:'center'}}>Kingsley Okpo</div>
+          <div className="nav-logo" style={{textAlign:'center'}}>Phebean Adeniji</div>
 
           </div>
         <ul className='nav-menu' style={{display : navbarActive?"flex":'none' }}>

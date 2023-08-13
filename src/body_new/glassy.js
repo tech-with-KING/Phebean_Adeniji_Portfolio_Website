@@ -1,6 +1,6 @@
 import React from 'react';
 import './glassy.css'; // Import your CSS file for styling
-import img from './IMG_6608.JPG'
+import img from './main1.jpeg'
 
 const GlassyProfile = () => {
     const text = `
