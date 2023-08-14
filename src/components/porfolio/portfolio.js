@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css'
 const PortfolioPage = () => {
-  const name = 'Kingsley Okpo';
+  const name = 'Phebean Adeniji';
   const message = `
   As a passionate software engineer and mathematician, I thrive on the exhilarating intersection of logic and creativity. With a solid foundation in mathematics, I approach software development as an elegant puzzle that demands both analytical thinking and innovative solutions. My journey into this field began with my fascination for algorithms and patterns, which eventually led me to pursue degrees in both mathematics and computer science.
 

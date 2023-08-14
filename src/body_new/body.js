@@ -62,7 +62,7 @@ const Luminar = ({value}) => {
          <div onClick={toggleNavbar} style={{display:'flex', alignItems:'center', justifyContent:'center', background:'transparent'}}>
             <Hamburger toggled={isOpen} toggle={setOpen}  />
           </div>
-          <div className="nav-logo" style={{textAlign:'center'}}>Kingsley Okpo</div>
+          <div className="nav-logo" style={{textAlign:'center'}}>Adeniji Phebean</div>
 
           </div>
         <ul className='nav-menu' style={{display : navbarActive?"flex":'none' }}>
@@ -73,7 +73,7 @@ const Luminar = ({value}) => {
         </ul>
       </div>
       <div className='navbar_alt' style={{ backgroundColor:colors[value], color:text_colors[value] }}>
-          <div className="nav_logo" style={{textAlign:'center'}}>Kingsley Okpo</div>
+          <div className="nav_logo" style={{textAlign:'center'}}>Adeniji Phebean</div>
         <ul className='nav-menu_alt' >
           <li><a href="#" style={{ color:text_colors[value] }}>Home</a></li>
           <li><Link to={'/elevator-pitch'} style={{ color:text_colors[value] }}>Elevator Pitch</Link></li>

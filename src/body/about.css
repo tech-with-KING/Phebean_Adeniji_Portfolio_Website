@@ -15,8 +15,9 @@
     width: 100vw;
 }
 #know_me .col-left{
-    width: 90vw;
-    height:360px;
+    width: 30vw;
+    min-width: 300px;
+    height:400px;
 }
 
 #know_me .col-right{
@@ -74,8 +75,9 @@
   width:95%;
   border: 7px solid #377788;
   z-index: -1;
-  background-image: url('/public/IMG_20230814_031247.jpg');
+  background-image: url('/public/WhatsApp\ Image\ 2023-08-13\ at\ 5.26.48\ PM.jpeg');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 @media (min-width: 650px){
