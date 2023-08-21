@@ -78,7 +78,7 @@ const DownBar = ({value}) => {
 				</div>
 			</div>
 			<div className='text'>
-				<p>copyright: <a href='https://tinyurl.com/Kingsley-Okpo'>Kingsley Okpo</a></p>
+				<p>copyright: <a href='https://tinyurl.com/Daniel-Olabisi'>Daniel-Olabisi</a></p>
 				{/* <p>Email: kingsley@algophile.com */}
 				{/* </p> */}
 				<p>This website was made responsively  with Reactjs

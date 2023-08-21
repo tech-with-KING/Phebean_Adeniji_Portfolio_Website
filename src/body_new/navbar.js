@@ -71,7 +71,7 @@ const NavManu= ({value}) => {
         </ul>
       </div>
       <div className='navbar_alt' style={{ backgroundColor:colors[value], color:text_colors[value] }}>
-          <div className="nav_logo" style={{textAlign:'center'}}>Kingsley Okpo</div>
+          <div className="nav_logo" style={{textAlign:'center'}}>Adeniji Phebean</div>
         <ul className='nav-menu_alt' >
           <li><a href="/" style={{ color:text_colors[value] }}>Home</a></li>
           <li><Link to={'/elevator-pitch'} style={{ color:text_colors[value] }}>Elevator Pitch</Link></li>
