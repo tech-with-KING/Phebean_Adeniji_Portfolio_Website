@@ -62,6 +62,8 @@ and it can help students learn more effectively.
         <div className="">
                <h1 className='section-title'>Pitch Slides Deck</h1>
                <GoogleSlides />
+                <h1 className='section-title'>Resume</h1>
+               <Cv />
            </div>
            <h1 className='portfols'>Contributors :</h1>
            
@@ -95,3 +97,31 @@ const GoogleSlides = () => {
   );
 };
 
+
+const Cv = () => {
+  const googleSlidesEmbedUrl = 'https://docs.google.com/presentation/d/1uzMGw-mBBkNuHwgzNz8ImnT4tE1Mjs-BYX2H86PBrwE/embed';
+  const linkedInUrl ='https://drive.google.com/file/d/1sxoE3o_hBQrv9DJc9YNHVkHPdH0319Dc/view?usp=dri ve_link'
+  return (
+    <div className="google-slides-container">
+      <iframe
+        src={linkedInUrl}
+        title="Cv"
+        allowFullScreen
+      ></iframe>
+    </div>
+  );
+};
+
+const LinkedIn = () => {
+  const googleSlidesEmbedUrl = 'https://docs.google.com/presentation/d/1uzMGw-mBBkNuHwgzNz8ImnT4tE1Mjs-BYX2H86PBrwE/embed';
+  const linkedInUrl ='https://www.linkedin.com/in/dee-analyst'
+  return (
+    <div className="google-slides-container">
+      <iframe
+        src={linkedInUrl}
+        title="LinkedIn"
+        allowFullScreen
+      ></iframe>
+    </div>
+  );
+};
